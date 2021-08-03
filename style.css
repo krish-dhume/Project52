@@ -1,0 +1,94 @@
+h1{
+    background-color: #ffffff;
+    color:#ffffff;
+    padding-left:10px ;
+    margin:30%
+    
+}
+.grid img{
+border:2px solid #000000;
+border-radius: 50px;
+}
+.menu:hover img {
+    transform:scale(2);
+}
+.origami{
+    border-radius: 20px;
+    background-color:#ffffff;
+    width:310px;
+    font-family:fantasy;
+    font-weight:110px;
+    padding:20px;
+   margin:10px;
+   
+}
+body{
+   background: color #f0f0f0;;
+margin:0px
+}
+.menu{
+    display:flex;
+    justify-content:space-between;
+   background-color:#000000;
+   color:white;
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight:400;
+    padding:15px;
+   
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family:sans-serif;
+    background-color:#ffffff;
+    margin: 20px;
+   
+}
+
+p,h2{
+    color:#8a2be2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:100px;
+}
+a:link{
+    
+    color:tomato;
+    text-decoration: none;
+   
+}
+a:visited{
+    
+    color:turquoise;
+    transform:scale(1.5);
+    text-decoration: none;
+}
+a:hover{
+    background-color:white;
+    color:yellowgreen;
+    transform:scale(1.5);
+    text-decoration: none;
+}
+.bodyImg{
+    position:relative;
+   
+    text-decoration: none;
+}
+.bodyImg p{
+color: #f2f2f2;
+font-size:50px;
+font-family:fantasy;
+position:absolute;
+top:10%;
+left:50%;
+transform:translate(-50%,-50%) ;
+}
+.origami:hover{
+    transform:scale(1.2);
+}
+.myImg:hover p{
+    transform:scale(1.2);
+}
+
+
